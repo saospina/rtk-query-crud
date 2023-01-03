@@ -1,9 +1,14 @@
 import React from 'react'
+import TaskForm from './components/TaskForm'
 import TasksList from './components/TasksList'
 
 const App = () => {
   return (
-    <TasksList />
+    <div>
+      <TaskForm />
+      <TasksList />
+    </div>
+
   )
 }
 
